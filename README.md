@@ -9,17 +9,17 @@ Dataset used in [proyectocuentalo.org](http://proyectocuentalo.org/).
 The dataset is contained in the CSV file [cuentalo-hand-labeled-dataset.csv](cuentalo-hand-labeled-dataset.csv).
 It has the following columns:
 
-- `id`: (integer) Tweet id
-- `WHO`: (integer between 1-5). See [who](#who)
-- `WHAT-murder`: (`1` or blank): `1` if the tweet was tagged as **murder**. See [what](#what), **murder**
-- `WHAT-rape`: (`1` or blank): `1` if the tweet was tagged as **rape**. See [what](#what), **rape**
-- `WHAT-sexual_assault`: (`1` or blank): `1` if the tweet was tagged as **sexual assault**. See [what](#what), **sexual assault**
-- `WHAT-abuse`: (`1` or blank): `1` if the tweet was tagged as **abuse**. See [what](#what), **abuse**
-- `WHAT-harassment`: (`1` or blank): `1` if the tweet was tagged as **harassment**. See [what](#what), **harassment**
-- `WHAT-fear`: (`1` or blank): `1` if the tweet was tagged as **fear**. See [what](#what), **fear**
-- `WHAT-disgust/sadness/anger`: (`1` or blank): `1` if the tweet was tagged as **disgust/sadness/anger**. See [what](#what), **disgust/sadness/anger**
+- `id`: (integer) Tweet id.
+- `WHO`: (integer between 1-5) See [who](#who).
+- `WHAT-murder`: (`1` or blank) `1` if the tweet was tagged as **murder**. See [what](#what), **murder**.
+- `WHAT-rape`: (`1` or blank) `1` if the tweet was tagged as **rape**. See [what](#what), **rape**.
+- `WHAT-sexual_assault`: (`1` or blank) `1` if the tweet was tagged as **sexual assault**. See [what](#what), **sexual assault**.
+- `WHAT-abuse`: (`1` or blank) `1` if the tweet was tagged as **abuse**. See [what](#what), **abuse**.
+- `WHAT-harassment`: (`1` or blank) `1` if the tweet was tagged as **harassment**. See [what](#what), **harassment**.
+- `WHAT-fear`: (`1` or blank) `1` if the tweet was tagged as **fear**. See [what](#what), **fear**.
+- `WHAT-disgust/sadness/anger`: (`1` or blank) `1` if the tweet was tagged as **disgust/sadness/anger**. See [what](#what), **disgust/sadness/anger**.
 
-The info in the columns `WHO` and `WHAT-*` correspond to the following:
+The columns `WHO` and `WHAT-*` correspond to:
 
 ### who
 
@@ -33,12 +33,12 @@ The info in the columns `WHO` and `WHAT-*` correspond to the following:
 
 ### what
 
-- **murder**: (*yes=1/no*) the tweet describes a murder
-- **rape**: (*yes=1/no*) the tweet states a rape or attempted rape
-- **sexual assault**: (*yes=1/no*) the tweet describes a sexual assault (but not situations that belongs to the category **rape**)
+- **murder**: (*yes=1/no*) the tweet describes a murder.
+- **rape**: (*yes=1/no*) the tweet states a rape or attempted rape.
+- **sexual assault**: (*yes=1/no*) the tweet describes a sexual assault (but not situations that belongs to the category **rape**).
 - **abuse**: (*yes=1/no*) the tweet states abuse.
-- **harassment**: (*yes=1/no*) the tweet discusses about a non-physical harassment situation
-- **fear**: (*yes=1/no*) the tweet explicitly describes fear
+- **harassment**: (*yes=1/no*) the tweet discusses about a non-physical harassment situation.
+- **fear**: (*yes=1/no*) the tweet explicitly describes fear.
 - **disgust/sadness/anger**: (*yes=1/no*) the tweet explicitly describes disgust/sadness/anger, only if **who** is different than 4.
 
 The detailed information about the dataset can be found in the [paper](#citing-the-paper).
@@ -54,7 +54,7 @@ If you use this dataset in a scientific publicaction, we would appreciate citati
 Bibtex entry:
 
 ```
-@inproceedings{cuentalo-laweb2019,
+@inproceedings{cuentalo-laweb_2019,
  author = {Maria Soledad Bucalo and Calvo, Luz and Cucchietti, Fernando and Garcia Povedano, David and Garcia-S\'{a}ez, Artur and Felipe G\'{o}mez, Juan and Arcadio Gonz\'{a}lez, Camilo and Marin, Guillermo and Meta, Irene and Reyes, Patricio and Serra, Feliu and Fernanda V{\'e}lez, Diana},
  title = {A Constellation of Horrors: Analysis and Visualization of the \#Cu{\'e}ntalo Movement},
  booktitle = {Companion Proceedings of The 2019 World Wide Web Conference},
